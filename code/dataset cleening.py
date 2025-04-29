@@ -1,7 +1,7 @@
 import pandas as pd
 
 # โหลดไฟล์ CSV
-file_path = "Effects of Violent Video Games.csv"
+file_path = "data/Effects of Violent Video Games.csv"
 
 # โหลดข้อมูลจากไฟล์ CSV
 df = pd.read_csv(file_path)

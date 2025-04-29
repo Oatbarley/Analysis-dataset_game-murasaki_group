@@ -5,8 +5,8 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
 # โหลดข้อมูล
-df_corr_chi = pd.read_csv('test/sample60c.csv')
-df_anova = pd.read_csv('test/sample60.csv')
+df_corr_chi = pd.read_csv('data/sample60c.csv')
+df_anova = pd.read_csv('data/sample60.csv')
 
 # กราฟ Slide 8: Scatter Plot (Correlation)
 plt.figure(figsize=(6, 4))

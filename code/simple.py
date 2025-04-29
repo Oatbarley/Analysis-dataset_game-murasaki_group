@@ -1,7 +1,7 @@
 import pandas as pd
 
 # โหลดข้อมูลจากไฟล์ (ใส่ path ไฟล์จริง)
-df = pd.read_csv('cleaned_dataset_17.csv')
+df = pd.read_csv('data/cleaned_dataset_17.csv')
 
 # ตรวจสอบข้อมูลเบื้องต้น
 print("จำนวนข้อมูลทั้งหมด:", len(df))

@@ -3,7 +3,7 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
 # โหลดไฟล์ sample60.csv
-df = pd.read_csv('test/sample60.csv')
+df = pd.read_csv('data/sample60.csv')
 
 # ตรวจสอบชื่อคอลัมน์ให้ตรงก่อนรัน
 print(df.columns)
@@ -20,7 +20,7 @@ print(anova_table)
 from scipy.stats import pearsonr, chi2_contingency
 
 # โหลดไฟล์ sample60c.csv
-dfc = pd.read_csv('test/sample60c.csv')
+dfc = pd.read_csv('data/sample60c.csv')
 
 r, p = pearsonr(
     dfc['How much time do you play "violent" video games specifically?'],
