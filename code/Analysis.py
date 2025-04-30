@@ -2,8 +2,8 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-# โหลดไฟล์ sample60.csv
-df = pd.read_csv('data/sample60.csv')
+# โหลดไฟล์ cleaned_dataset_twoway
+df = pd.read_csv('data/sample60_twoway.csv')
 
 # ตรวจสอบชื่อคอลัมน์ให้ตรงก่อนรัน
 print(df.columns)
